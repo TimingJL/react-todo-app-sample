@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import Todo from './Todo'
+import Todo from './todos/Todo'
 
 const Header = () => (
 	<header>

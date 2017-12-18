@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import Todo from './Todo'
+import Todo from './todos/Todo'
 
 const Main = () => (
 	<main>
