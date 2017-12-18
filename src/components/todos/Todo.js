@@ -24,7 +24,7 @@ export default class Todo extends PureComponent{
 	id = 1;
 
 	handleOnAddItem(value){// get value from <input /> form in Action Component
-		const item ={
+		const item = {
 			id: this.id,
 			value,
 			state: STATE_INCOMPLETE,
@@ -62,13 +62,13 @@ export default class Todo extends PureComponent{
 		return(
 			<div>
 				<h1>This is Todo Page.</h1>
-				<Action handleOnAddItem={this.handleOnAddItem} />
+				<Action handleOnAddItem = {this.handleOnAddItem} />
 				<TodoList 
-					dataSource={list} 
+					dataSource = {list} 
 					handleOnCheckItem = {this.handleOnCheckItem}
-					handleOnRemoveItem= {this.handleOnRemoveItem}
+					handleOnRemoveItem = {this.handleOnRemoveItem}
 				/>
-			</div>			
+			</div>
 		)
 	}
 }

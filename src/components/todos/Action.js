@@ -21,7 +21,7 @@ export default class Action extends PureComponent{
 		return(
 			<div>
 				<input 
-					ref = {input => this.inputText = input}
+					ref={input => this.inputText=input}
 				/>
 
 				<button onClick={this.handleAddbtnClick}>
